@@ -1,0 +1,313 @@
+$Raleway: 'Raleway',
+sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+    box-sizing: border-box;
+}
+
+.container {
+    z-index: 2;
+    position: relative;
+    background: #eff4fd;
+    background-image: url(assets/greybackground.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav {
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+li {
+    float: center;
+    /* border-right: 2px solid black; */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: white;
+}
+
+nav ul li a:hover {
+    color: red
+}
+
+.detel {
+    min-height: 40vh;
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+span {
+    color: orange;
+    z-index: 20;
+}
+
+.detel p {
+    color: #555;
+    line-height: 22px;
+    text-align: center;
+    z-index: 2;
+}
+
+.detel a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.detel i{
+    font-size: 24px;
+}
+.detel {
+    text-align: center;
+}
+
+h1 {
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 100x;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+    z-index: 2;
+}
+
+h2 {
+    font-family: raleway;
+    font-weight: lighter;
+    text-align: center;
+    color: black;
+    z-index: 2;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 0;
+    z-index: 2;
+
+}
+
+
+
+
+.girl {
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    object-fit: contain;
+
+}
+
+.girl {
+    left: 69%;
+    text-align: left;
+}
+
+#Aboutme {
+    margin: 0;
+}
+
+#Aboutme .container {
+    background: rgb(189, 189, 197);
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1;
+}
+
+#Aboutme {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio .container {
+    background: #ffff;
+    background-image: url(assets/greybackground.jpg)
+}
+
+portfolio .project-col-md-4 #education .container {
+    font-family: raleway;
+    max-width: auto;
+    margin: 0 auto 50px;
+    padding: 1px solid;
+    text-align: center;
+    box-sizing: border-box;
+    top: 50%;
+
+    margin-left: 300px;
+    padding: 15px;
+}
+.btn {
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    border: 0;
+    position: relative;
+    right: 0;
+    top: 8px;
+    display: inline-block;
+    text-decoration: none;
+   
+}
+
+.project-img {
+    height: 15rem;
+    width: 10rem;
+    padding-bottom: 2%;
+}
+
+project-img-con h3 {
+    font-family: raleway;
+}
+
+#education span {
+    color: black;
+}
+
+#col- .span {
+    background-color: white;
+}
+
+
+.gap {
+    display: inline-block;
+    flex-wrap: wrap;
+    font-size: 8px;
+    line-height: 8px;
+    font-weight: 700;
+    color: black;
+    margin-right: 100px;
+    padding-right: 5px;
+    justify-content: center;
+    padding-left: -1%;
+    background-image: silver;
+    gap: 5rem;
+    border-radius: 5px;
+
+}
+
+.gap h3 {
+    background-color: white;
+    text-align: center;
+    font-family: raleway;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.html {
+    width: 120px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.css {
+    width: 120px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.js {
+    width: 120px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.commandline {
+    width: 120px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.github {
+    width: 120px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+a {
+    font-size: 26px;
+}
+
+.btn-primary  {
+    
+    width: 7rem;
+ 
+}
+
+.social {
+   
+}
